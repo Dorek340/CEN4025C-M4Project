@@ -6,8 +6,8 @@ superheroes/.cache/
 superheroes/.tmp/
 superheroes/.idea/
 superheroes/.vscode/
-superheroes/src/environments/environment.prod.ts
-superheroes/src/environments/environment.ts
+#superheroes/src/environments/environment.prod.ts
+#superheroes/src/environments/environment.ts
 
 # Logs
 superheroes/logs
