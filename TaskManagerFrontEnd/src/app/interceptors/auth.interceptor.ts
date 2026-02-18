@@ -6,8 +6,7 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
   const auth = inject(AuthService);
   const token = auth.getToken();
 
-  // Log every outgoing request for visibility (Module 4 requirement)
-  // eslint-disable-next-line no-console
+  // Log every outgoing request for visibility
   console.log('[AuthInterceptor] Outgoing request:', req.method, req.url);
 
   if (!token) {
