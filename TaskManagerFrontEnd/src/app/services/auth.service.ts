@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 /**
- * Very small (mock) auth service for Module 4.
+ * Mock auth service for Module 4.
  * Stores a fake token in localStorage to simulate an authenticated session.
  */
 @Injectable({ providedIn: 'root' })
